@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="orWnQK" name="strokey" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              binaryDataNamespace="BinaryData" companyName="edequinox">
+  <MAINGROUP id="S5w8B5" name="strokey">
+    <GROUP id="{2CD2D80B-A92B-52CA-D12D-D3CED7F7D535}" name="Source">
+      <FILE id="dkQ75q" name="Main.h" compile="0" resource="0" file="Source/Main.h"/>
+      <FILE id="a56BmA" name="AppIconTray.cpp" compile="1" resource="0" file="Source/AppIconTray.cpp"/>
+      <FILE id="MXam1P" name="AppIconTray.h" compile="0" resource="0" file="Source/AppIconTray.h"/>
+      <FILE id="pRR7lC" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="MbODOm" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="LMiyMR" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+    <FILE id="vaB1TO" name="tray_arrow.png" compile="0" resource="1" file="C:/Users/edequ/Downloads/tray_arrow.png"/>
+    <FILE id="lsvnd8" name="tray.png" compile="0" resource="1" file="C:/Users/edequ/Downloads/tray.png"/>
+    <FILE id="CoiQ7R" name="white.png" compile="0" resource="1" file="C:/Users/edequ/Downloads/white.png"/>
+    <FILE id="Qv61H3" name="black.png" compile="0" resource="1" file="C:/Users/edequ/Downloads/black.png"/>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_analytics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022" smallIcon="lsvnd8">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="teste2"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="strokey"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_analytics" path="../../../juce-7.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../juce-7.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../juce-7.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../juce-7.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../juce-7.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../juce-7.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../juce-7.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../juce-7.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../juce-7.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../juce-7.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../juce-7.0.12-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../juce-7.0.12-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
